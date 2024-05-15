@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <div class="input">
+        
+        <h1>Data Diri</h1>
+        <!-- <form action="datadiri.php" method="POST"> -->
+            <fieldset>
+                <legend>Pendaftaran</legend>
+                <div>
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda" size="5" class="form-input"/>
+                </div>
+                
+                <div>
+                    <label for="username">Nomor KTP</label>
+                    <input type="text" id="username" name="username" />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" id="password" name="password"/>
+                <div>
+                    <label for="alamat">Alamat</label>
+                    <input type="text" name="alamat" id="alamat">
+                </div>
+                <div>
+                    <label for="usia">usia</label>
+                    <input type="number" name="usia" id="usia">
+                </div>
+                <div>
+                    <label for="no_HP">Nomor_Handphone(WA)</label>
+                    <input type="text" name="no_HP" id="no_HP">
+                </div>
+                <div>
+                    <label for="jenis_kelamin">Jenis Kelamin</label>
+                    <div class="flex">
+                        <input type="radio" name="jenis_kelamin" value="L" id="l"/> <span>Laki-Laki</span>
+                        <input type="radio" name="jenis_kelamin" value="P" id="p"/> <span>Perempuan</span>
+                    </div> 
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="contoh@gmail.com">
+                </div>
+                <div>
+                    <button id="pendaftaran" type="button" name="reset" ><i class="fa-solid fa-xmark"></i>BATAL</button>
+                    <button id="pendaftaran" type="submit" name="submit"><i class="fa-regular fa-floppy-disk"></i> SIMPAN </button>
+                </div>
+
+                <div class="bottom">
+                    <p>Lanjut Reservasi?
+                        <a href="reservasi.html">Reservasi Disini</a>
+                    </p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
